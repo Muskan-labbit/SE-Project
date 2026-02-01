@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <h2>Place Your Order Here</h2>
+
+    <di class="cont">
+            <div class="men1">
+                <img src="pics/vanilla cone.jpeg" alt="">
+                <button class="btn" onclick="addToCart(1)">Add to Cart</button>
+            </div>
+
+            <div class="men2">
+                <img src="pics/strawberry cone.jpeg" alt="">
+                <button class="btn" onclick="addToCart(2)">Add to Cart</button>
+            </div>
+            <div class="men3">
+                <img src="pics/chocolate cone.jpeg" alt="">
+                <button class="btn" onclick="addToCart(3)">Add to Cart</button>
+            </div>
+
+            <div class="men4">
+                <img src="pics/vanilla sundae.jpeg" alt="">
+                <button class="btn" onclick="addToCart(4)">Add to Cart</button>
+            </div>
+             <div class="men5">
+                <img src="pics/strawberry sundae.jpeg" alt="">
+                <button class="btn" onclick="addToCart(5)">Add to Cart</button>
+            </div>
+             <div class="men6">
+                <img src="pics/chocolate sundae.jpeg" alt="">
+                <button class="btn" onclick="addToCart(6)">Add to Cart</button>
+            </div>
+             <div class="men7">
+                <img src="pics/vanilla cake.jpeg" alt="">
+                <button class="btn" onclick="addToCart(7)">Add to Cart</button>
+            </div>
+             <div class="men8">
+                <img src="pics/strawberry cake.jpeg" alt="">
+                <button class="btn" onclick="addToCart(8)">Add to Cart</button>
+            </div>
+             <div class="men9">
+                <img src="pics/chocolate cake.jpeg" alt="">
+                <button class="btn" onclick="addToCart(9)">Add to Cart</button>
+            </div>
+
+    </div>
+
+    <!-- Cart Display -->
+    <div id="cart">
+        <h3>Your Cart</h3>
+        <p id="cart-items">Items: 0</p>
+        <p id="cart-total">Total: $0</p>
+
+        <button onclick="decreaseItem()">–</button>
+        <button onclick="increaseItem()">+</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
